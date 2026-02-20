@@ -15,12 +15,12 @@ formulario.addEventListener("submit", function(e){
     
     if(nota > 5 || nota < 0){
         resultado.textContent = "Nota invalida"
-        resultado.style.color="yellow"
+        resultado.style.color ="red"
     }else if(nota >= 3){
-        resultado.textContent = "Aprobo";
-        resultado.style.color="green"
+        resultado.textContent = "Aprobo"
+        resultado.style.color ="green"
        }else{
         resultado.textContent = "No aprobo"
-        resultado.style.color="red"      
+        resultado.style.color ="orange"      
         }      
 })
